@@ -1,1 +1,54 @@
 /* Write your CSS here! */
+html {
+    font-family: sans-serif;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+/* use margin & padding */
+header h1 {
+    text-align: center;
+}
+
+/* header with id called mainHeading and color of red */
+#mainHeading {
+    color: red;
+}
+
+/* body element with margin of 8px and display type block */
+body {
+    margin: 8px;
+    display: block;
+    background-color: black;
+}
+
+/* class called funParagraph with color of green */
+.funParagraph {
+    color: green;
+}
+
+main {
+    background-color: #ddd;
+}
+
+main ol li {
+    margin: 1em;
+}
+
+section {
+    /* padding-top: 1em; */
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+img {
+    width: 25%;
+}
